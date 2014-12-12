@@ -13,6 +13,7 @@
 		E01161A51A3AF2E90097FA31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01161A41A3AF2E90097FA31 /* Images.xcassets */; };
 		E01161A81A3AF2E90097FA31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E01161A61A3AF2E90097FA31 /* LaunchScreen.xib */; };
 		E01161B41A3AF2E90097FA31 /* UITableViewSelfSizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01161B31A3AF2E90097FA31 /* UITableViewSelfSizingTests.swift */; };
+		E0D116D41A3AF753000D4FCC /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D116D31A3AF753000D4FCC /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E01161AD1A3AF2E90097FA31 /* UITableViewSelfSizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewSelfSizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01161B21A3AF2E90097FA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01161B31A3AF2E90097FA31 /* UITableViewSelfSizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewSelfSizingTests.swift; sourceTree = "<group>"; };
+		E0D116D31A3AF753000D4FCC /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E011619D1A3AF2E90097FA31 /* AppDelegate.swift */,
 				E011619F1A3AF2E90097FA31 /* ViewController.swift */,
 				E01161A11A3AF2E90097FA31 /* Main.storyboard */,
+				E0D116D31A3AF753000D4FCC /* CustomCell.swift */,
 				E01161A41A3AF2E90097FA31 /* Images.xcassets */,
 				E01161A61A3AF2E90097FA31 /* LaunchScreen.xib */,
 				E011619B1A3AF2E90097FA31 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01161A01A3AF2E90097FA31 /* ViewController.swift in Sources */,
+				E0D116D41A3AF753000D4FCC /* CustomCell.swift in Sources */,
 				E011619E1A3AF2E90097FA31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UITableViewSelfSizing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UITableViewSelfSizing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +413,7 @@
 				E01161B91A3AF2E90097FA31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01161BA1A3AF2E90097FA31 /* Build configuration list for PBXNativeTarget "UITableViewSelfSizingTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +422,7 @@
 				E01161BC1A3AF2E90097FA31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
