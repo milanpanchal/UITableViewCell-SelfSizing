@@ -8,6 +8,9 @@ Demo app to show how UITableViewCell hight adjust as per content.
 - Auto Layout Enable 
 - iOS Version 8.0 onwards
 
+##Screenshot:
+
+![image](https://raw.github.com/milanpanchal/UITableViewCell-SelfSizing/master/Screenshots/UITableviewCell-SelfResizing.png)
 
 ##Contact:
 
